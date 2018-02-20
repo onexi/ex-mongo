@@ -6,6 +6,8 @@ var MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/dockerdemo';
 var db;
 
+// TESTTTTT
+
 MongoClient.connect(url, function (err, database) {
     if(err){ console.log('failed to connect: ' + err); return;}
     db = database;
